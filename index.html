@@ -1,0 +1,41 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="perspective box big">
+	</div>
+	<div class="perspective box" style="height:100;width:100;">
+	</div>
+	<div class="perspective box long">
+	</div>
+	
+
+
+	<script>
+		document.body.onload = addElements();
+
+		function addElements(){
+			var boxes = document.getElementsByClassName("perspective");
+			for(var i=0; i<boxes.length; i++) {
+				var rightWall=document.createElement("div");
+					rightWall.className= "rightwall";
+				var topWall=document.createElement("div");
+					topWall.className= "topwall";
+				var leftWall=document.createElement("div");
+					leftWall.className= "leftwall";
+				var bottomWall=document.createElement("div");
+					bottomWall.className= "bottomwall";
+	    		
+	    		boxes[i].appendChild(rightWall);
+	    		boxes[i].appendChild(topWall);
+			}
+
+		}
+
+		
+		
+	</script>
+
+</body>
+</html>
