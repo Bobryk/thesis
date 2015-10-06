@@ -39,7 +39,7 @@ body{
 	transform-origin:right;
 	-moz-transform-origin:right;
 
-	-ms-transform: rotateY(90deg);
+	-ms-transform: rotateY(-90deg);
     -webkit-transform: rotateY(-90deg);
     transform: rotateY(-90deg);
 
@@ -70,7 +70,7 @@ body{
 	-webkit-transform-origin:bottom;
 	-moz-transform-origin:bottom;
 
-	-ms-transform: rotateY(90deg);
+	-ms-transform: rotateX(90deg);
     -webkit-transform: rotateX(90deg);
     transform: rotateX(90deg);
     opacity:.2;
