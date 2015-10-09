@@ -24,7 +24,7 @@ body{
 	width:100%;
 	color:#fff;
 }
-.box figure{
+.perspective-box figure{
 	margin:0;
 	position:absolute;
 	display:block;
@@ -32,10 +32,10 @@ body{
 	height:100%;
 	background-color:#aaa;
 }
-.box .front{
+.perspective-box .front{
 	opacity:1;
 }
-.box .right{
+.perspective-box .right{
 	-webkit-transform-origin:right;
 	transform-origin:right;
 	-moz-transform-origin:right;
@@ -46,7 +46,7 @@ body{
 
     opacity:.8;
 }
-.box .top{
+.perspective-box .top{
 	transform-origin: top;
 	-webkit-transform-origin:top;
 	-moz-transform-origin:top;
@@ -56,7 +56,7 @@ body{
     transform: rotateX(-90deg);
     opacity:.6;
 }
-.box .left{
+.perspective-box .left{
 	transform-origin: left;
 	-webkit-transform-origin:left;
 	-moz-transform-origin:left;
@@ -66,7 +66,7 @@ body{
     transform: rotateY(90deg);
     opacity:.4;
 }
-.box .bottom{
+.perspective-box .bottom{
 	transform-origin: bottom;
 	-webkit-transform-origin:bottom;
 	-moz-transform-origin:bottom;
