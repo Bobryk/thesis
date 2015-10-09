@@ -20,10 +20,10 @@ body{
 	position:absolute;
 	transform-style:preserve-3d;
 	margin:0;
-	padding:0;
 	height:inherit;
 	width:inherit;
 	color:#fff;
+	z-index: -1;
 }
 .perspective-box figure{
 	margin:0;
@@ -32,6 +32,7 @@ body{
 	width:100%;
 	height:100%;
 	background-color:#aaa;
+	
 }
 .perspective-box .front{
 	opacity:1;

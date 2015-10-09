@@ -19,11 +19,9 @@ function addElements(){
 		var bottomWall = document.createElement("figure");
 			bottomWall.className = "bottom";
 			inner.appendChild(bottomWall);
-		var frontWall = document.createElement("figure");
-			frontWall.className = "front";
-			inner.appendChild(frontWall);
+		
 
-		boxes[i].appendChild(inner);
+		boxes[i].insertBefore(inner, boxes[i].firstChild);
 		}
 		
 
