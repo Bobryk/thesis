@@ -19,9 +19,10 @@ body{
 .perspective-box-inner{
 	position:absolute;
 	transform-style:preserve-3d;
-	margin:20px;
-	height:100%;
-	width:100%;
+	margin:0;
+	padding:0;
+	height:inherit;
+	width:inherit;
 	color:#fff;
 }
 .perspective-box figure{
