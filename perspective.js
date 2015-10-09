@@ -2,7 +2,7 @@ document.body.onload = addElements();
 
 
 function addElements(){
-	var boxes = document.getElementsByClassName("box");
+	var boxes = document.getElementsByClassName("perspective-box");
 	for(var i=0; i<boxes.length; i++) {
 		var inner = document.createElement("div");
 			inner.className = "perspective-box-inner";
