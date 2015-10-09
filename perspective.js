@@ -5,7 +5,7 @@ function addElements(){
 	var boxes = document.getElementsByClassName("box");
 	for(var i=0; i<boxes.length; i++) {
 		var inner = document.createElement("div");
-		inner.className = "perspective-box-inner";
+			inner.className = "perspective-box-inner";
 
 		
 		var rightWall = document.createElement("figure");
@@ -23,7 +23,9 @@ function addElements(){
 		var frontWall = document.createElement("figure");
 			frontWall.className = "front";
 			inner.appendChild(frontWall);
-		}
+
 		boxes[i].appendChild(inner);
+		}
+		
 
 }
