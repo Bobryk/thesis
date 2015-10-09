@@ -1,81 +1,3 @@
-<<<<<<< HEAD
-html,body{
-	min-height:100%;
-}
-
-body{
-	-webkit-perspective: 1000px;
-	perspective:1000px;
-	-moz-perspective:1000px;
-	-webkit-perspective-origin: 50% 50%;
-	-moz-perspective-origin:50% 50%;
-	perspective-origin:50% 50%;
-
-}
-
-.perspective{
-	position:absolute;
-	transform-style:preserve-3d;
-}
-
-.box{
-	margin:20px;
-	height:200px;
-	width:200px;
-	color:#fff;
-}
-.box figure{
-	margin:0;
-	position:absolute;
-	display:block;
-	width:100%;
-	height:100%;
-	background-color:#aaa;
-}
-.box .front{
-	opacity:1;
-}
-.box .right{
-	-webkit-transform-origin:right;
-	transform-origin:right;
-	-moz-transform-origin:right;
-
-	-ms-transform: rotateY(-90deg);
-    -webkit-transform: rotateY(-90deg);
-    transform: rotateY(-90deg);
-
-    opacity:.8;
-}
-.box .top{
-	transform-origin: top;
-	-webkit-transform-origin:top;
-	-moz-transform-origin:top;
-
-	-ms-transform: rotateX(-90deg);
-    -webkit-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-    opacity:.6;
-}
-.box .left{
-	transform-origin: left;
-	-webkit-transform-origin:left;
-	-moz-transform-origin:left;
-
-	-ms-transform: rotateY(90deg);
-    -webkit-transform: rotateY(90deg);
-    transform: rotateY(90deg);
-    opacity:.4;
-}
-.box .bottom{
-	transform-origin: bottom;
-	-webkit-transform-origin:bottom;
-	-moz-transform-origin:bottom;
-
-	-ms-transform: rotateX(90deg);
-    -webkit-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    opacity:.2;
-=======
 #leftContainer{
 	float:left;
 }
@@ -101,5 +23,4 @@ body{
 }
 p{
 	padding:10px;
->>>>>>> gh-pages
 }
