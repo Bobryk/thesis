@@ -12,8 +12,10 @@ body{
 
 }
 .perspective-box{
+	position:relative;
 	height:200px;
 	width:200px;
+	margin:20px;
 }
 
 
