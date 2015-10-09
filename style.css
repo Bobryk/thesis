@@ -11,20 +11,18 @@ body{
 	perspective-origin:50% 50%;
 
 }
-#hi{
-	position:relative;
+.perspective-box{
 	height:200px;
 	width:200px;
-}
-.perspective{
-	position:absolute;
-	transform-style:preserve-3d;
 }
 
-.box{
+
+.perspective-box-inner{
+	position:absolute;
+	transform-style:preserve-3d;
 	margin:20px;
-	height:200px;
-	width:200px;
+	height:100%;
+	width:100%;
 	color:#fff;
 }
 .box figure{
