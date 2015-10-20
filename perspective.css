@@ -100,7 +100,8 @@ body{
 	width:inherit;
 	height:inherit;
 	background-color: inherit;
-	transform: translateZ(-400px);
+	transform: translateZ(-100px);
 	border: solid 1px #000;
+	opacity:0.8;
 	
 }
