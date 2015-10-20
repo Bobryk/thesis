@@ -11,9 +11,9 @@ body{
 	perspective-origin:50% 50%;
 
 }
-.perspective-box{
-	
-}
+
+.perspective-box{}
+.perspective-mirror{}
 
 
 .perspective-box-inner{
@@ -77,4 +77,29 @@ body{
     -webkit-transform: rotateX(90deg);
     transform: rotateX(90deg);
     opacity:.2;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+.perspective-mirror-inner{
+	position:absolute;
+	transform-style:preserve-3d;
+	margin:0;
+	height:inherit;
+	width:inherit;
+	color:#fff;
+	background-color: inherit;
+	z-index: -1;
+}
+.mirror{
+	transform-style:preserve-3d;
+	margin:0;
+	position:absolute;
+	display:block;
+	width:inherit;
+	height:inherit;
+	background-color: inherit;
+	transform: translateZ(-200px);
+	border: solid 1px #000;
+	
 }

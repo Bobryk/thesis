@@ -22,5 +22,21 @@ function addElements(){
 		
 
 		boxes[i].insertBefore(inner, boxes[i].firstChild);
+	}
+	var boxes = document.getElementsByClassName("perspective-mirror");
+	for(var j = 0;j<boxes.length;j++){
+		var inner = document.createElement("div");
+		inner.className = "perspective-mirror-inner";
+		var next = document.createElement("figure");
+		next.className = "mirror";
+		inner.appendChild(next);
+		for(var i=0; i<10; i++) {	
+			var temp = document.createElement("figure");
+			temp.className = "mirror";
+			next.appendChild(temp);
+			next = next.firstChild;
 		}
+		boxes[j].insertBefore(inner, boxes[j].firstChild);
+	}
+
 }
