@@ -92,6 +92,7 @@ body{
 	z-index: -1;
 }
 .mirror{
+	z-index: -50;
 	transform-style:preserve-3d;
 	margin:0;
 	position:absolute;
@@ -99,7 +100,7 @@ body{
 	width:inherit;
 	height:inherit;
 	background-color: inherit;
-	transform: translateZ(-200px);
+	transform: translateZ(-400px);
 	border: solid 1px #000;
 	
 }
