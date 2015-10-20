@@ -1,9 +1,6 @@
-#leftContainer{
-	float:left;
-}
 #element1{
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 	margin:20px;
 	background-color:#3ed4f0;
 }
@@ -18,10 +15,9 @@
 #element3{
 	background-color: #ccc;
 	border: solid 1px #000;
-	width:500px;
-	height:500px;
+	width:200px;
+	height:200px;
 	margin:20px;
-	float:right;
 }
 p{
 	padding:10px;
