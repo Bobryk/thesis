@@ -4,4 +4,13 @@ Nick Bobryk 2015 thesis project.
 
 CURRENTLY A PROTOTYPE. VERY UNFINISHED.
 
-This project is a javascript/CSS library that makes 3d graphics on the web extremely simple. In order to make an object a 3d box, you just need to add the class "perspective box" to it.
+This project is a javascript/CSS library that makes 3d graphics on the web extremely simple. 
+
+# Current Features
+perspective-box turns your element into a 3d box
+perspective-mirror copies your element and fades it into z-space
+
+# Known Bugs
+Z buffer is off for some background 3d objects.
+Firefox doesnt work
+padding doesnt work
