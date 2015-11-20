@@ -1,6 +1,6 @@
 #element1{
-	width:200px;
-	height:200px;
+	width:400px;
+	height:400px;
 	margin:20px;
 	background-color:#3ed4f0;
 }
@@ -13,12 +13,20 @@
 }
 
 #element3{
-	background-color: #ccc;
-	border: solid 1px #000;
+	background-color: #f2a68b;	
 	width:200px;
 	height:200px;
 	margin:20px;
 }
 p{
 	padding:10px;
+	font-family: 'Open Sans', sans-serif;
+}
+#header {
+  	font-family: 'Open Sans', sans-serif;
+  	font-size:100px;
+}
+#el1text{
+	font-size: 30px;
+	color:#fff;
 }
