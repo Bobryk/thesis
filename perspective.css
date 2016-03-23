@@ -13,7 +13,7 @@ body{
 }
 
 .perspective-box{}
-.perspective-mirror{}
+.perspective-fade{}
 
 
 .perspective-box-inner{
@@ -81,7 +81,7 @@ body{
 
 /*/////////////////////////////////////////////////////*/
 
-.perspective-mirror-inner{
+.perspective-fade-inner{
 	position:absolute;
 	transform-style:preserve-3d;
 	margin:0;
@@ -91,7 +91,7 @@ body{
 	background-color: inherit;
 	z-index: -1;
 }
-.mirror{
+.fade{
 	z-index: -50;
 	transform-style:preserve-3d;
 	margin:0;
@@ -100,9 +100,9 @@ body{
 	width:inherit;
 	height:inherit;
 	background-color: inherit;
-	transform: translateZ(-100px);
+	transform: translateZ(-5px);
 	border: inherit;
-	opacity:0.8;
+	opacity:0.95;
 	
 }
 

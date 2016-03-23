@@ -6,7 +6,10 @@ function addElements(){
 	for(var i=0; i<boxes.length; i++) {
 		var inner = document.createElement("div");
 			inner.className = "perspective-box-inner";
-			
+			if(typeof InstallTrigger !== 'undefined'){
+				inner.style.perspectiveOrigin = "2000px -2000px";
+				inner.style.perspective = "10000px";
+			}
 		var rightWall = document.createElement("figure");
 			rightWall.className = "right";
 			inner.appendChild(rightWall);
@@ -23,16 +26,20 @@ function addElements(){
 
 		boxes[i].insertBefore(inner, boxes[i].firstChild);
 	}
-	var boxes = document.getElementsByClassName("perspective-mirror");
+	var boxes = document.getElementsByClassName("perspective-fade");
 	for(var j = 0;j<boxes.length;j++){
 		var inner = document.createElement("div");
-		inner.className = "perspective-mirror-inner";
+		inner.className = "perspective-fade-inner";
+		if(typeof InstallTrigger !== 'undefined'){
+			inner.style.perspectiveOrigin = "2000px -2000px";
+			inner.style.perspective = "10000px";
+		}
 		var next = document.createElement("figure");
-		next.className = "mirror";
+		next.className = "fade";
 		inner.appendChild(next);
-		for(var i=0; i<10; i++) {	
+		for(var i=0; i<40; i++) {	
 			var temp = document.createElement("figure");
-			temp.className = "mirror";
+			temp.className = "fade";
 			next.appendChild(temp);
 			next = next.firstChild;
 		}
