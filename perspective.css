@@ -24,6 +24,7 @@ body{
 	width:inherit;
 	color:#fff;
 	z-index: -1;
+	box-sizing:border-box;
 }
 .perspective-box figure{
 	margin:0;
@@ -32,6 +33,7 @@ body{
 	width:100%;
 	height:100%;
 	background-color:#aaa;
+	box-sizing:border-box;
 	
 }
 .perspective-box .front{
@@ -90,6 +92,7 @@ body{
 	color:#fff;
 	background-color: inherit;
 	z-index: -1;
+	box-sizing:border-box;
 }
 .fade{
 	z-index: -50;
@@ -103,6 +106,7 @@ body{
 	transform: translateZ(-5px);
 	border: inherit;
 	opacity:0.95;
+	box-sizing:border-box;
 	
 }
 
