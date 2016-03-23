@@ -1,22 +1,26 @@
 #element1{
 	width:400px;
 	height:400px;
-	margin:20px;
+	margin:10px;
 	background-color:#3ed4f0;
 }
 #element2{
 	width:200px;
 	height:200px;
-	margin:20px;
+	margin:10px;
 	background-image:url("image.jpg");
+	background-size: cover;
 	color:#000;
+	padding:20px;
+	float:left;
 }
 
 #element3{
+	clear:both;
 	background-color: #f2a68b;	
 	width:200px;
 	height:200px;
-	margin:20px;
+	margin:10px;
 }
 p{
 	padding:10px;

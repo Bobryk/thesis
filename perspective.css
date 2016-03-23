@@ -12,9 +12,8 @@ body{
 
 }
 
-.perspective-box{}
+.perspective-box{box-sizing:border-box;}
 .perspective-fade{}
-
 
 .perspective-box-inner{
 	position:absolute;
@@ -24,6 +23,7 @@ body{
 	width:inherit;
 	color:#fff;
 	z-index: -1;
+	background: inherit;
 	box-sizing:border-box;
 }
 .perspective-box figure{
@@ -32,9 +32,8 @@ body{
 	display:block;
 	width:100%;
 	height:100%;
-	background-color:#aaa;
+	background:inherit;
 	box-sizing:border-box;
-	
 }
 .perspective-box .front{
 	opacity:1;
@@ -104,7 +103,6 @@ body{
 	height:inherit;
 	background-color: inherit;
 	transform: translateZ(-5px);
-	border: inherit;
 	opacity:0.95;
 	box-sizing:border-box;
 	
