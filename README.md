@@ -8,9 +8,8 @@ This project is a javascript/CSS library that makes 3d graphics on the web extre
 
 # Current Features
 perspective-box turns your element into a 3d box
-perspective-mirror copies your element and fades it into z-space
+perspective-fade copies your element and fades it into z-space
 
 # Known Bugs
 Z buffer is off for some background 3d objects.
-Firefox doesnt work
 padding doesnt work
