@@ -13,7 +13,7 @@ for(var i=0;i<level.length;i++){
 		else if(level[i][j]==2){
 			var element = document.createElement("section");
 			element.id = "player";
-			element.className="depthly depth-9";
+			element.className="depthly depth-8";
 			element.style.left = j*80;
 			element.style.top = i*80;
 			element.style.zIndex="-99";
