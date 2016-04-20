@@ -1,6 +1,6 @@
 #element1{
-	width:420px;
-	height:420px;
+	width:246px;
+	height:246px;
 	margin:10px;
 	background-color:#3ed4f0;
 	float:left;
@@ -15,10 +15,24 @@
 	padding:20px;
 	float:left;
 }
+#element3{
+	width:380px;
+	height:380px;
+	margin:10px;
+	background-color:#777;
+	color:#000;
+	padding:20px;
+	float:left;
+	text-decoration: none;
+}
+#element3:hover{
+	background-image:url("maze/hedge.jpg");
+	background-size: 25%;
+}
 #rainbow{
-	width:420;
-	height:420;
-	margin:10;
+	width:246px;
+	height:246px;
+	margin:10px;
 	float:left;
 	position:relative;
 }
@@ -28,6 +42,15 @@
 	bottom:0;
 	left:0;
 	right:0;
+	background-size: 100% 100%;
+}
+.intro{
+	width:800px;
+	height:270px;
+}
+.examples{
+	width:800px;
+	height:790px;
 }
 #red{
 	background-image:url("red.png");
@@ -47,13 +70,7 @@
 #violet{
 	background-image:url("violet.png");
 }
-#element3{
-	clear:both;
-	background-color: #f2a68b;	
-	width:200px;
-	height:200px;
-	margin:10px;
-}
+
 p{
 	padding:10px;
 	font-family: 'Open Sans', sans-serif;

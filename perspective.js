@@ -1,4 +1,4 @@
-document.body.onload = addElements();
+
 
 
 function addElements(){
@@ -82,3 +82,4 @@ function addElements(){
 	}
 
 }
+window.onload = addElements();

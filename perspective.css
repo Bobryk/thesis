@@ -17,7 +17,6 @@ body{
 
 .perspective-box-inner{
 	position:absolute;
-	transform-style:preserve-3d;
 	margin:0;
 	height:inherit;
 	width:inherit;
@@ -84,7 +83,6 @@ body{
 
 .perspective-fade-inner{
 	position:absolute;
-	transform-style:preserve-3d;
 	margin:0;
 	height:inherit;
 	width:inherit;
@@ -95,7 +93,6 @@ body{
 }
 .fade{
 	z-index: -50;
-	transform-style:preserve-3d;
 	margin:0;
 	position:absolute;
 	display:block;
