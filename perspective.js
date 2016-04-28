@@ -1,6 +1,3 @@
-
-
-
 function addElements(){
 	var depthlyElements = document.getElementsByClassName("depthly");
 	var depth = 0;
